@@ -324,7 +324,7 @@ class WordInspector:
             for line in file.read().splitlines():
                 wordsFile[line] = len(line)
     except FileNotFoundError:
-        print('Δε βρέθηκε αρχείο με λέξεις! Βye!')
+        print('Δε βρέθηκε αρχείο με λέξεις!')
         exit()
 
     @staticmethod
